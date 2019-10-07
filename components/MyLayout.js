@@ -9,7 +9,7 @@ const Layout = props => (
     {props.children}
     <div className="footer">
       <span>
-      © 2019 <a href="http://apweb.ir">ApWeb</a> All Rights Reserved
+        © 2019 <a href="http://apweb.ir">ApWeb</a> All Rights Reserved
       </span>
     </div>
   </div>

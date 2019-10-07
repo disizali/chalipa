@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\blog.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/blog.js"],{
 
 /***/ "./components/Head.js":
 /*!****************************!*\
@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\components\\Head.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/components/Head.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -67,7 +67,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Head */ "./components/Head.js");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/style.scss */ "./styles/style.scss");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\components\\MyLayout.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/components/MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -157,7 +157,7 @@ var _static_data_categories_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__P
 
 
 
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\components\\NavBar.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/components/NavBar.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 
@@ -20759,10 +20759,10 @@ exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeo
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=D%3A%5CProjects%5CNodeJs%5CChalipa%5Cpages%5Cblog.js!./":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=D%3A%5CProjects%5CNodeJs%5CChalipa%5Cpages%5Cblog.js ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=%2FUsers%2Fimac%2FDesktop%2Fchalipa%2Fpages%2Fblog.js!./":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=%2FUsers%2Fimac%2FDesktop%2Fchalipa%2Fpages%2Fblog.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21386,12 +21386,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -24677,12 +24677,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -25317,12 +25317,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -26329,12 +26329,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -28824,12 +28824,12 @@ exports.classNamesShape = classNamesShape;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -38900,7 +38900,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\pages\\blog.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/pages/blog.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
@@ -38930,41 +38930,68 @@ var Blog = function Blog(props) {
     },
     __self: this
   }, "\u0645\u0642\u0627\u0644\u0627\u062A : "), props.posts.map(function (item, index) {
+    var date = new Date(item.createdAt);
     var href = "/blog/".concat(++index);
     return __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       href: href,
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 16
       },
       __self: this
     }, __jsx("a", {
       href: "/blog/".concat(++index),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 17
       },
       __self: this
     }, __jsx("div", {
       className: "shadow-lg p-3 mb-5 bg-white rounded",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 18
+      },
+      __self: this
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+      className: "col-lg-1 col-sm-2 text-center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, __jsx("i", {
+      className: "fas fa-newspaper display-4 text-muted ",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
       },
       __self: this
     }, __jsx("h5", {
       className: "text-primary",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 24
       },
       __self: this
     }, item.title), __jsx("p", {
       className: "text-black-50 mt-2 body-preview",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 25
       },
       __self: this
     }, __jsx("div", {
@@ -38974,10 +39001,31 @@ var Blog = function Blog(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 26
       },
       __self: this
-    })))));
+    }))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+      className: "col-lg-3 col-sm-4 align-right",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, __jsx("span", {
+      className: "text-muted",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }, "".concat(date.getFullYear(), "/").concat(date.getMonth(), "/").concat(date.getDay())), __jsx("i", {
+      className: "fas fa-clock align-center text-muted mr-2 mt-5 pt-5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }))))));
   })));
 };
 
@@ -38992,17 +39040,24 @@ function () {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            host = context.req.headers.host;
-            _context.next = 3;
+            host = "";
+
+            if (context.req != undefined) {
+              host = context.req.headers.host;
+            } else {
+              host = window.location.host;
+            }
+
+            _context.next = 4;
             return axios__WEBPACK_IMPORTED_MODULE_5___default.a.get("http://".concat(host, "/api/blog"));
 
-          case 3:
+          case 4:
             posts = _context.sent;
             return _context.abrupt("return", {
               posts: posts.data
             });
 
-          case 5:
+          case 6:
           case "end":
             return _context.stop();
         }
@@ -39030,28 +39085,28 @@ module.exports = JSON.parse("{\"1\":{\"title\":\"کابل فشار قوی\",\"su
 
 /***/ }),
 
-/***/ 3:
-/*!*************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fblog&absolutePagePath=D%3A%5CProjects%5CNodeJs%5CChalipa%5Cpages%5Cblog.js ***!
-  \*************************************************************************************************************************/
+/***/ 0:
+/*!**************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fblog&absolutePagePath=%2FUsers%2Fimac%2FDesktop%2Fchalipa%2Fpages%2Fblog.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblog&absolutePagePath=D%3A%5CProjects%5CNodeJs%5CChalipa%5Cpages%5Cblog.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=D%3A%5CProjects%5CNodeJs%5CChalipa%5Cpages%5Cblog.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblog&absolutePagePath=%2FUsers%2Fimac%2FDesktop%2Fchalipa%2Fpages%2Fblog.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=%2FUsers%2Fimac%2FDesktop%2Fchalipa%2Fpages%2Fblog.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_129a35c7ec57967eb265":
+/***/ "dll-reference dll_01f9a3fa864a7b7414d8":
 /*!*******************************************!*\
-  !*** external "dll_129a35c7ec57967eb265" ***!
+  !*** external "dll_01f9a3fa864a7b7414d8" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_129a35c7ec57967eb265;
+module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=blog.js.map

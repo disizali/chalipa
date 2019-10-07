@@ -4,38 +4,6 @@ import "../styles/style.scss";
 import React from "react";
 // import { Button } from "reactstrap";
 
-function getPosts() {
-  return [
-    { id: "hello-nextjs", title: "Hello Next.js" },
-    { id: "learn-nextjs", title: "Learn Next.js is awesome" },
-    { id: "deploy-nextjs", title: "Deploy apps with ZEIT" }
-  ];
-}
-
-const PostLink = ({ post }) => (
-  <li>
-    <Link href="/p/[id]" as={`/p/${post.id}`}>
-      <a>{post.title}</a>
-    </Link>
-    <style jsx>{`
-      li {
-        list-style: none;
-        margin: 5px 0;
-      }
-
-      a {
-        text-decoration: none;
-        color: blue;
-        font-family: "Iran Sans";
-      }
-
-      a:hover {
-        opacity: 0.6;
-      }
-    `}</style>
-  </li>
-);
-
 export default function Blog() {
   return (
     <Layout>
@@ -44,11 +12,6 @@ export default function Blog() {
           <div className="intro-img">
             <div className="shadow bg-light rounded ml-5 p-5">
               <img src="/static/images/logo.png" className="img-fluid" />
-              {/* <img */}
-              {/* src="static/images/intro-img.svg" */}
-              {/* alt="" */}
-              {/* className="img-fluid" */}
-              {/* /> */}
             </div>
           </div>
           <div className="intro-info">

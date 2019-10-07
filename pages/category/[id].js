@@ -38,7 +38,13 @@ const Category = props => {
 };
 
 Category.getInitialProps = async context => {
-  const host = context.req.headers.host;
+  let host = '';
+  if (context.req != undefined){
+     host = context.req.headers.host;
+  }
+  else{
+    host = window.location.host;
+  }
   console.log("here");
   const products = await axios.get(
     `http://${host}/api/category/${context.query.id}`

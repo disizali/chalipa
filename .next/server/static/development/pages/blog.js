@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\components\\Head.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/components/Head.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -160,7 +160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Head */ "./components/Head.js");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/style.scss */ "./styles/style.scss");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\components\\MyLayout.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/components/MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -234,7 +234,7 @@ var _static_data_categories_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__P
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/style.scss */ "./styles/style.scss");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\components\\NavBar.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/components/NavBar.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -1299,7 +1299,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/style.scss */ "./styles/style.scss");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "D:\\Projects\\NodeJs\\Chalipa\\pages\\blog.js";
+var _jsxFileName = "/Users/imac/Desktop/chalipa/pages/blog.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1329,41 +1329,68 @@ const Blog = props => {
     },
     __self: undefined
   }, "\u0645\u0642\u0627\u0644\u0627\u062A : "), props.posts.map((item, index) => {
+    const date = new Date(item.createdAt);
     const href = `/blog/${++index}`;
     return __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: href,
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 16
       },
       __self: undefined
     }, __jsx("a", {
       href: `/blog/${++index}`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 17
       },
       __self: undefined
     }, __jsx("div", {
       className: "shadow-lg p-3 mb-5 bg-white rounded",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 18
+      },
+      __self: undefined
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: undefined
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+      className: "col-lg-1 col-sm-2 text-center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: undefined
+    }, __jsx("i", {
+      className: "fas fa-newspaper display-4 text-muted ",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: undefined
+    })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
       },
       __self: undefined
     }, __jsx("h5", {
       className: "text-primary",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 24
       },
       __self: undefined
     }, item.title), __jsx("p", {
       className: "text-black-50 mt-2 body-preview",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 25
       },
       __self: undefined
     }, __jsx("div", {
@@ -1373,15 +1400,43 @@ const Blog = props => {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 26
       },
       __self: undefined
-    })))));
+    }))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+      className: "col-lg-3 col-sm-4 align-right",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: undefined
+    }, __jsx("span", {
+      className: "text-muted",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: undefined
+    }, `${date.getFullYear()}/${date.getMonth()}/${date.getDay()}`), __jsx("i", {
+      className: "fas fa-clock align-center text-muted mr-2 mt-5 pt-5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: undefined
+    }))))));
   })));
 };
 
 Blog.getInitialProps = async context => {
-  const host = context.req.headers.host;
+  let host = "";
+
+  if (context.req != undefined) {
+    host = context.req.headers.host;
+  } else {
+    host = window.location.host;
+  }
+
   const posts = await axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(`http://${host}/api/blog`);
   return {
     posts: posts.data
@@ -1414,14 +1469,14 @@ module.exports = JSON.parse("{\"1\":{\"title\":\"کابل فشار قوی\",\"su
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*****************************!*\
   !*** multi ./pages/blog.js ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Projects\NodeJs\Chalipa\pages\blog.js */"./pages/blog.js");
+module.exports = __webpack_require__(/*! /Users/imac/Desktop/chalipa/pages/blog.js */"./pages/blog.js");
 
 
 /***/ }),

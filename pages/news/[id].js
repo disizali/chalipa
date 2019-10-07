@@ -19,7 +19,13 @@ const News = props => {
 
 News.getInitialProps = async context => {
   const id = context.query.id;
-  const host = context.req.headers.host;
+  let host = '';
+  if (context.req != undefined){
+     host = context.req.headers.host;
+  }
+  else{
+    host = window.location.host;
+  }
   const news = await axios.get(`http://${host}/api/news/${id}`);
   return { news: news.data };
 };

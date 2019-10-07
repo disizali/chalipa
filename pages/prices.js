@@ -20,11 +20,14 @@ const Prices = props => {
             </tr>
             {props.prices.map((item, index) => {
               return (
-                <tr>
+                <tr key={index}>
                   <td>{++index}</td>
                   <td>{item.name}</td>
                   <td>{item.size}</td>
-                  <td>{item.price.toLocaleString()}</td>
+                  <td>
+                  {item.price.toLocaleString()}
+                  <i className="fas fa-money-bill-alt mr-2"></i>
+                  </td>
                 </tr>
               );
             })}
@@ -35,8 +38,13 @@ const Prices = props => {
   );
 };
 Prices.getInitialProps = async (context) => {
-  const host = context.req.headers.host;
-
+  let host = '';
+  if (context.req != undefined){
+     host = context.req.headers.host;
+  }
+  else{
+    host = window.location.host;
+  }
   const prices = await axios.get(`http://${host}/api/prices`);
   return { prices: prices.data };
 };
